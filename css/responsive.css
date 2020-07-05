@@ -1,0 +1,424 @@
+@media (max-width: 575.98px){
+    .navbar-brand{
+        width: 40px;
+    }
+    .contents {
+    padding: 75px 5% 25px 5%;
+    
+}
+    .contents h3 {
+    font-size: 27px;
+   
+}
+    .contents p {
+    font-size: 14px;
+    padding: 40px 0px 25px 0px;
+}
+   .contents button {
+    height: 40px;
+    width: 140px;
+    font-size: 18px;
+}
+    nav{
+        min-height:2.75rem;
+    }
+    .navbar{
+        padding: 0px 1rem;
+        background-color: rgba(0,0,0,0.8);
+    }
+    .navbar-brand{
+        font-size: 25px; 
+        padding-top: 0px;
+        padding-bottom: 0px;
+            
+    } 
+ nav .navbar-collapse.collapsing ul, nav .navbar-collapse.show ul {
+    margin-top: 0rem;
+     background-color: rgba(0,0,0,0.8);
+     text-align: center;
+}
+    nav .navbar-collapse.collapsing li a, nav .navbar-collapse.show li a {
+    padding:.25rem 0rem;
+}
+    .nav-link::before,
+    .nav-link::after,
+    .nav-link span::before{
+        display: none;
+    }
+    .navbar form{
+        display: none;
+    }
+    .nav-link:hover{
+        color:var(--bgColoredColor);
+    }
+    .numbering{
+        font-size: 12px;
+    }
+    .numbering .current {
+    font-size: 16px;
+}
+   #about{
+    padding: 30px 0px;
+}
+    .about-video{
+        margin-bottom: 20px;
+    }
+    .about-contents button {
+        padding: 2px 5px;
+        font-size: 18px;
+}
+    #services{
+    padding: 30px 0px;
+}
+    .whitebgheading {
+    margin-bottom: 30px;
+}
+    #statistics ul {
+    display: block;
+}
+    #statistics{
+    padding: 20px 0px;
+    }
+    .total-number{
+        font-size: 25px;
+        line-height: 25px;
+    }
+.particulars{
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 10px;
+    }
+    #portfolio{
+    padding: 30px 0px;
+}
+    .coloredbgheading{
+    margin-bottom: 30px;  
+}
+    #portfolio button{
+    padding: 2px 5px;
+    font-size: 18px;
+}
+    #team {
+    padding: 30px 0px;
+}
+    #team button {
+    padding: 2px 5px;
+    font-size: 18px;
+}
+    #faqs {
+    padding:30px 0px;
+}
+    .uk-accordion-title {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 5px;
+}
+    .uk-accordion-content{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+    
+    #pricing{
+        overflow-x: hidden;
+        padding: 30px 0px;
+
+    }
+    .p-content h4 {
+        margin-top: 10px;
+}
+    #testimonial {
+    padding: 30px 0px;
+}
+    .carousel-cell{
+    width: 100%;
+        transform: scaleX(1);
+        padding: 0px  20px 20px 20px;
+        overflow-x: hidden;
+}
+.is-selected{
+    transform: scaleX(1);
+    opacity: 1;
+}
+    .is-selected h4{
+    transform: scaleX(1);
+}
+    .carousel-cell h5{
+    font-family: JosefinSans;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #444444;
+    transform: scaleY(1);
+    font-weight: 600;
+}
+
+.is-selected h5{
+    transform: scaleX(1);
+    padding: 5px 0px 0px 10px ;
+}
+
+.carousel-cell img{
+    
+    transform: scaleX(1);
+}
+
+.is-selected img{
+    
+    transform: scaleX(1);
+}
+.carousel-cell  p{
+    font-family: OpenSans;
+    font-weight: 400;
+    font-size:14px;
+    color:#444444;
+    transform: scaleY(1);
+}
+
+.is-selected p{
+    transform: scaleX(1);
+}
+    .is-selected .testimonial-main{
+    box-shadow: 0px 0px 2px  rgba(0, 0, 0, 0.58);
+}
+    .f-logo img{
+        width: 40px;
+    }
+      .b-right{
+    border-right:none;
+}
+    .f-social-icon .fab {
+    margin: 5px;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .contents {
+    padding: 0px 10%;
+}
+    .navbar-brand{
+        width: 60px;
+    }
+    
+    .navbar{
+        background-color: rgba(0,0,0,0.8);
+    }
+    nav .navbar-collapse.collapsing ul, nav .navbar-collapse.show ul {
+    margin-top: 0rem;
+     background-color: rgba(0,0,0,0.8);
+     text-align: center;
+}
+      .nav-link::before,
+    .nav-link::after,
+    .nav-link span::before{
+        display: none;
+    }
+    .navbar form{
+        display: none;
+    }
+    .nav-link:hover{
+        color:var(--bgColoredColor);
+    }
+    #about{
+    padding: 40px 0px;
+}
+    .about-video{
+        margin-bottom: 20px;
+    }
+      #services{
+    padding: 50px 0px;
+}
+    #services .col-lg-4{
+        margin-bottom: 20px;
+    }
+      .whitebgheading {
+    margin-bottom: 30px;
+}
+    #portfolio{
+    padding: 30px 0px;
+}
+    .coloredbgheading{
+    margin-bottom: 30px;  
+}
+    #team {
+    padding: 40px 0px;
+}
+    #pricing{
+        overflow-x: hidden;
+        padding: 30px 0px;
+
+    }
+    .p-content h4 {
+        margin-top: 10px;
+}
+      #faqs {
+    padding:30px 0px;
+}
+        #testimonial {
+    padding: 50px 0px;
+}
+    .carousel-cell{
+    width: 100%;
+        transform: scaleX(1);
+        padding: 0px  20px 20px 20px;
+        overflow-x: hidden;
+}
+.is-selected{
+    transform: scaleX(1);
+    opacity: 1;
+}
+    .is-selected h4{
+    transform: scaleX(1);
+}
+    .carousel-cell h5{
+    transform: scaleY(1);
+}
+
+.is-selected h5{
+    transform: scaleX(1);
+}
+
+.carousel-cell img{
+    
+    transform: scaleX(1);
+}
+
+.is-selected img{
+    
+    transform: scaleX(1);
+}
+.carousel-cell  p{
+    transform: scaleY(1);
+}
+
+.is-selected p{
+    transform: scaleX(1);
+}
+    .is-selected .testimonial-main{
+    box-shadow: 0px 0px 2px  rgba(0, 0, 0, 0.58);
+}
+    .f-logo img{
+        width: 60px;
+    }
+    .b-right{
+    border-right:none;
+}
+    
+    
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    
+.container{
+    max-width: 900px;
+}
+    .nav-link {
+    font-size: 16px;
+}
+    .contents {
+    padding: 0px 20%;
+    }
+.services-contents {
+    padding: 0px 15px;
+
+}
+    #about {
+    padding: 40px 0px;
+}
+    #services {
+    padding: 50px 0px;
+}
+         .whitebgheading {
+    margin-bottom: 40px;
+}
+   .services-contents h5 {
+    font-size: 19px;
+}
+  
+    .services-contents p {
+    font-size: 12px;
+    padding: 0px 0px;
+}
+    .services-contents a {
+    font-size: 14px;
+}
+    #portfolio {
+    padding: 40px 0px;
+}
+      .coloredbgheading{
+    margin-bottom: 40px;  
+}
+    #team {
+    padding: 50px 0px;
+}
+    .team-image-overlay ul li {
+    padding-bottom: 5px;
+}
+    #faqs {
+    padding: 40px 0px;
+    }
+    .uk-accordion-title {
+    font-size: 20px;
+    }
+    #pricing {
+    padding: 100px 0px;
+}
+    #testimonial {
+    padding: 50px 0px;
+}
+    .carousel-cell{
+    width: 100%;
+        transform: scaleX(1);
+        padding: 0px  20px 20px 20px;
+        overflow-x: hidden;
+}
+.is-selected{
+    transform: scaleX(1);
+    opacity: 1;
+}
+    .is-selected h4{
+    transform: scaleX(1);
+}
+    .carousel-cell h5{
+    transform: scaleY(1);
+}
+
+.is-selected h5{
+    transform: scaleX(1);
+}
+
+.carousel-cell img{
+    
+    transform: scaleX(1);
+}
+
+.is-selected img{
+    
+    transform: scaleX(1);
+}
+.carousel-cell  p{
+    transform: scaleY(1);
+}
+
+.is-selected p{
+    transform: scaleX(1);
+}
+    .is-selected .testimonial-main{
+    box-shadow: 0px 0px 2px  rgba(0, 0, 0, 0.58);
+}
+    .b-right{
+        margin-bottom: 10px;
+    }
+    .border-lg-not{
+        border-right: none;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .uk-accordion-title {
+    font-size: 22px;
+    }
+    .contact-media p {
+    font-size: 13px;
+    }
+    
+}
+
+
+
+
